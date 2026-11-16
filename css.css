@@ -36,6 +36,8 @@ h1
 {
     color: #00F3FF;
     font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 10px;
     text-shadow:
         0 0 5px #00ffff,
         0 0 10px #00ffff,
@@ -46,8 +48,35 @@ h1
 p
 {
     color: #F8F9FA;
-    font-size: 40px;
+    font-size: 20px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    font-family: 'Pirata One', system-ui;
+    letter-spacing: 2px;
     text-shadow:
+        0 0 5px #00ffff,
+        0 0 10px #00ffff,
+        0 0 20px #00ffff,
+        0 0 40px #0088ff;
+}
+
+.tombol-link {
+  display: inline-block;
+  margin-top: 12px;
+  margin-right: 8px;
+  padding: 8px 16px;
+  color: #00F3FF;
+  text-decoration: none;
+  border: 1px solid #00F3FF;
+  border-radius: 8px;
+  background-color: rgba(0, 243, 255, 0.1);
+  transition: 0.3s;
+}
+
+.tombol-link:hover {
+  background-color: #00F3FF;
+  color: #190A2D;
+  box-shadow: 
         0 0 5px #00ffff,
         0 0 10px #00ffff,
         0 0 20px #00ffff,
