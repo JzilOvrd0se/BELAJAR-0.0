@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="css.css">
-    
+    <title>My Profile - JzilOvrd0se</title>
+  
+    <!-- Memuat font Pirata One -->
     <link rel="preconnect" href="https://googleapis.com">
     <link rel="preconnect" href="https://gstatic.com" crossorigin>
-    <link href="https://googleapis.com/css2?family=Pirata+One&family=Poppins:wght@400;600&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
-
-    <title>My profile</title>
+    <link href="https://googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+  
+    <!-- Memanggil banyak file CSS secara berurutan -->
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/components.css">
 </head>
-
 <body>
-    <div class="profile-box">
 
-        <h1>JzilOvrd0se</h1>
+    <main class="profile-box">
+        <header>
+            <h1>JzilOvrd0se</h1>
+        </header>
 
-        <p>Hello world</p>
-        <p>hi i'm jzil</p>
-        <p>My hobby is playing rhythm games.</p>
-        <p>My favorite game right now is osu!mania.</p>
+        <section class="profile-bio">
+            <p>Hello world</p>
+            <p>hi i'm jzil</p>
+            <p>My hobby is playing rhythm games.</p>
+            <p>My favorite game right now is osu!mania.</p>
+        </section>
 
-        <a href="https://osu.ppy.sh/users/37198915" target="_blank" class="tombol-link">My Osu! profile</a>
-    </div>
+        <footer class="profile-links">
+            <a href="https://osu.ppy.sh/users/37198915" class="tombol-link" target="_blank" rel="noopener noreferrer">
+                My Osu! profile
+            </a>
+        </footer>
+    </main>
+
 </body>
-
 </html>

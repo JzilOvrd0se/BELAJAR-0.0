@@ -1,0 +1,24 @@
+.tombol-link
+{
+    display: inline-block;
+    margin-top: 12px;
+    margin-right: 8px;
+    padding: 10px 20px;
+    color: #00F3FF;
+    text-decoration: none;
+    border: 1px solid #00F3FF;
+    border-radius: 8px;
+    background-color: rgba(0, 243, 255, 0.1);
+    transition: 0.3s;
+}
+
+.tombol-link:hover
+{
+    background-color: #00F3FF;
+    color: #190A2D;
+    box-shadow: 
+        0 0 5px #00ffff,
+        0 0 10px #00ffff,
+        0 0 20px #00ffff,
+        0 0 40px #0088ff;
+}
